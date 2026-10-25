@@ -1,0 +1,284 @@
+
+/* whole index page */
+
+body {
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f5f2ed;
+    margin: 0;
+    }
+
+
+/* header */
+
+.treble { 
+    font-size: 7vw;
+    line-height: 1;
+    margin-left: 1%;
+    color: #8b1e2d;
+    }
+.school_name { 
+    font-size: 2.4vw;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px #3f3e3e;
+    }
+.orchestra_name { 
+    font-size: 1.5vw;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px #3f3e3e;
+    }
+
+header {
+   
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    width: 100%;
+    padding: 1% 2%;
+    box-sizing: border-box;
+
+}
+
+header h1 {
+    margin-left: 10px;
+    line-height: 1.1;
+    color: #000000; 
+}
+
+/* center content*/
+#home_page main {
+    background-image: url("orchestra_index.jpg");
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main h2 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    width: 90%;
+    justify-content: center;
+    gap: 2%;
+    display: flex;
+}
+
+main a {
+    width: 28%;
+    max-width: 250px;
+    min-width: 180px;
+    height: 50px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a6573b;
+    color: white;
+    margin: 0 10px;
+    border-radius: 6px;
+    font-weight: normal;
+    
+}
+
+main div {
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+}
+
+/* navigation */
+#nav_menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 4%;
+    flex: 1;
+    flex-wrap: wrap;
+    min-width: 350px;
+}
+
+#nav_menu a {
+    color: #3d241b;
+    font-size: 16px;
+}
+/* the style for the footer */
+
+footer {
+    clear: both;
+    background-color: #f8fafc;
+    text-align: left;
+    padding: 20px;
+    a:link { color: #6493bc; }
+    a:hover, a:focus { color: #764604; }
+    line-height: 0.5;
+}
+
+#about_page main {
+    display: flex;
+    width: 100%;
+}
+
+#about_page main > section {
+    width: 60%;
+}
+
+#about_page main > section img {
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+}
+
+#about_page aside {
+    width: 50%;
+    padding: 0% 4% 4% 4%;
+    box-sizing: border-box;
+   
+}
+
+#about_page aside h2 {
+    color: #3d241b;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    border-top: 4px solid #8b1e2d;
+    padding-top: 4%;
+}
+
+#about_page aside p {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+#about_page aside div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#about_page aside div section {
+    width: 30%;
+    text-align: center;
+    padding: 0 2%;
+    box-sizing: border-box;
+}
+
+#about_page aside div section h3 {
+    font-size: 40px;
+    color: #a6573b;
+    margin-bottom: 10px;
+}
+
+#about_page .performace h3 {
+    font-size: 30px;
+    line-height: 1.9;
+    margin-bottom: 10px;
+}
+
+#about_page aside div section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#about_page aside div section p {
+    font-size: 16px;
+}
+
+#gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+    margin-top: 20px;
+}
+
+#gallery img {
+    width: 32%;
+    height: 150px;
+    object-fit: cover;
+}
+
+#about_page footer {
+line-height: 0.5;
+}
+
+#about_page #nav_menu {
+    display: flex;
+    justify-content: right;
+    gap: 4%;
+    flex: 1;
+    margin-left: 100px;
+}
+
+/* contact form */
+
+#contact_page {
+    width: 80%;
+    margin: 0 auto;
+    padding: 3% 5%;
+    box-sizing: border-box;
+    border-top: 4px solid #8b1e2d;
+    background-color: #f5f2ed;
+}
+
+#contact_page h2 {
+    color: #3d241b;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#contact_page p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+#contact_page label {
+    font-size: 18px;
+}
+#contact_page p {
+    font-size: 18px;
+    font-style: oblique;
+}
+
+#contact_page form p {
+    margin-bottom: 3px;
+}
+
+#contact_page input,
+#contact_page select,
+#contact_page textarea {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+#contact_page input[type="text"],
+#contact_page input[type="email"],
+#contact_page select {
+    width: 20%;
+    padding: 5px;
+}
+#contact_page textarea {
+    width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#contact_page input[type="submit"],
+#contact_page input[type="reset"] {
+
+    width: 120px;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #a6573b;
+    color: white;
+    border: none;
+
+}
+
+
+
